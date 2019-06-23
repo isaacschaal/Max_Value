@@ -1,0 +1,22 @@
+<% if notice %>
+  <aside id="notice"><%= notice %> </aside>
+<% end %>
+
+<h1> Cheap Local Restaurants! </h1>
+
+<ul class="catalog">
+  <% cache @restaurants do %>
+    <% @restaurants.each do |restaurant| %>
+      <% cache restaurant do %>
+        <li>
+          <%= image_tag(restaurant.image_url) %>
+          <h2><%= restaurant.name %></h2>
+          <h3><%= restaurant.price_type %> <%= restaurant.meal_type %></h3>
+          <p>
+            <%= sanitize(restaurant.description) %>
+          </p>
+        </li>
+      <% end %>
+    <% end %>
+  <% end %>
+</ul>
