@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bf10bc1-e046-41dc-a2ed-3017e276ffca" name="Default Changelist" comment="" />
+    <list default="true" id="5bf10bc1-e046-41dc-a2ed-3017e276ffca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/restaurants/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/restaurants/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/restaurants/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/restaurants/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -32,47 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../test_proj_2/app/javascript/stylesheets/application.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../test_proj_2/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../test_proj_2/app/views/restaurants/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../test_proj_2/node_modules/tailwindcss/base.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../test_proj_2/app/javascript/packs/application.js">
+        <entry file="file://$PROJECT_DIR$/app/javascript/packs/application.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -81,28 +53,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../test_proj_2/node_modules/tailwindcss/components.css">
+        <entry file="file://$PROJECT_DIR$/app/javascript/stylesheets/application.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/restaurants/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/restaurants/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/homepage/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="20" selection-start-line="11" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../test_proj_2/node_modules/tailwindcss/screens.css">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="35" column="103" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/mailer.text.erb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../test_proj_2/node_modules/tailwindcss/tailwind.css">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/app/views/restaurants/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../test_proj_2/node_modules/tailwindcss/utilities.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../test_proj_2/node_modules/tailwindcss/yarn.lock">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/app/javascript/stylesheets/tailwind.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -111,9 +131,11 @@
     <findStrings>
       <find>pink</find>
       <find>tailwind.config.js</find>
+      <find>lg</find>
     </findStrings>
     <replaceStrings>
       <replace>indigo</replace>
+      <replace>md</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -122,17 +144,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/javascript/packs/application.js" />
-        <option value="$PROJECT_DIR$/postcss.config.js" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/javascript/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/db/migrate/create_restaurants.rb" />
         <option value="$PROJECT_DIR$/db/migrate/1_create_restaurants_table.rb" />
-        <option value="$PROJECT_DIR$/../test_proj_2/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/../test_proj_2/app/views/restaurants/new.html.erb" />
-        <option value="$PROJECT_DIR$/../test_proj_2/node_modules/tailwindcss/base.css" />
-        <option value="$PROJECT_DIR$/../test_proj_2/app/javascript/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/node_modules/tailwindcss/base.css" />
+        <option value="$PROJECT_DIR$/postcss.config.js" />
+        <option value="$PROJECT_DIR$/app/javascript/packs/application.js" />
+        <option value="$PROJECT_DIR$/app/javascript/stylesheets/tailwind.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/restaurants/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/javascript/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/app/javascript/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/app/views/restaurants/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -144,8 +168,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="518" />
-    <option name="width" value="1162" />
+    <option name="x" value="656" />
+    <option name="width" value="1024" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -159,46 +183,65 @@
         <subPane>
           <expand>
             <path>
-              <item name="Max Value" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_proj_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_proj_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Max Value" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_proj_2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Max Value" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_proj_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_proj_2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Max Value" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_proj_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_proj_2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="channels" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Max Value" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_proj_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_proj_2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="javascript" type="462c0819:PsiDirectoryNode" />
               <item name="packs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Max Value" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_proj_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_proj_2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="javascript" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Max Value" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_proj_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_proj_2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_proj_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_proj_2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_proj_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_proj_2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_proj_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_proj_2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="restaurants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_proj_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_proj_2" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,6 +251,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -234,7 +278,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: test_proj_2">
+  <component name="RunManager" selected="JavaScript Debug._form">
+    <configuration name="_form" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://0.0.0.0:3000/restaurants/_form">
+      <method v="2" />
+    </configuration>
     <configuration name="Development: test_proj_2" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="test_proj_2" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -286,7 +333,7 @@
     <configuration name="spec: test_proj_2" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="test_proj_2" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../test_proj_2" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -308,7 +355,7 @@
     <configuration name="test: test_proj_2" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="test_proj_2" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/../test_proj_2" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -330,6 +377,11 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug._form" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -343,19 +395,20 @@
       <option name="presentableId" value="Default" />
       <updated>1561317893356</updated>
       <workItem from="1561317894596" duration="4475000" />
-      <workItem from="1561328836941" duration="1813000" />
+      <workItem from="1561328836941" duration="2244000" />
+      <workItem from="1561373808929" duration="11506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6288000" />
+    <option name="totallyTimeSpent" value="18225000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="518" y="0" width="1162" height="1050" extended-state="0" />
+    <frame x="656" y="0" width="1024" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2544643" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17311609" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32908705" />
@@ -365,7 +418,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32908705" />
-      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32908705" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -380,21 +433,14 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/app/models/restaurant.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/restaurant.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/app/views/restaurants/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
@@ -402,94 +448,132 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/0_create_restaurants.rb" />
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/app/controllers/homepage_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/homepage_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/app/controllers/restaurants_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/restaurants_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/db/migrate/1_create_restaurants_table.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/1_create_restaurants_table.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/postcss.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/app/views/restaurants/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/node_modules/tailwindcss/components.css">
+    <entry file="file://$PROJECT_DIR$/node_modules/tailwindcss/yarn.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/node_modules/tailwindcss/screens.css">
+    <entry file="file://$PROJECT_DIR$/node_modules/tailwindcss/screens.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/node_modules/tailwindcss/tailwind.css">
+    <entry file="file://$PROJECT_DIR$/node_modules/tailwindcss/tailwind.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/node_modules/tailwindcss/utilities.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/node_modules/tailwindcss/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/node_modules/tailwindcss/base.css">
+    <entry file="file://$PROJECT_DIR$/node_modules/tailwindcss/components.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/app/javascript/packs/application.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/tailwindcss/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/tailwindcss/utilities.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postcss.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test_proj_2/app/javascript/stylesheets/application.scss">
+    <entry file="file://$PROJECT_DIR$/app/javascript/stylesheets/tailwind.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/restaurants/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/homepage/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="20" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/mailer.text.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/restaurants/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="35" column="103" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/restaurants/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>

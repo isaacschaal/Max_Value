@@ -1,18 +1,34 @@
 @import "tailwindcss/base";
 
-/*FOR SOME REASON PREFLIGHT IS NOT LOADING FOR ME*/
 h1 {
   @apply text-2xl;
+  @apply font-bold;
 }
 h2 {
   @apply text-xl;
+  @apply font-semibold;
 }
 h3 {
   @apply text-lg;
+  @apply font-medium;
 }
-a {
-  @apply text-blue-600 underline;
-}
+//a {
+//  @apply text-blue-600 underline;
+//}
 
 @import "tailwindcss/components";
+
+.form-label{
+  @apply .uppercase .tracking-wide .text-gray-700 .text-xs .font-bold .mb-2;
+}
+.form-box{
+  @apply  .block w-full .bg-gray-200 .text-gray-700 .border .border-gray-200 .rounded .py-3 .px-4 .mb-3 .leading-tight;
+}
+//.appearance-none
+
+.form-box:focus{
+  @apply .outline-none .bg-white .border-gray-500;
+
+}
+
 @import "tailwindcss/utilities";

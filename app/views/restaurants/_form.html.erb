@@ -1,37 +1,52 @@
-<%= form_with(model: restaurant, local: true) do |form| %>
-  <% if restaurant.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h2>
+<div class = "w-full ">
+  <%= form_with(model: restaurant, local: true) do |form| %>
+    <div class = "block md:flex md:flex-wrap md:-mx-3 md:mb-6">
+      <div class = "md:w-1/4 py-4 px-10">
+        <%= image_tag("pizza.jpg") %>
+        <%= form.label :image_url %>
+        <%= form.text_field :image_url, id: :restaurant_image_url %>
+      </div>
+      <div class = "md:w-3/4 py-4, px-10">
+        <% if restaurant.errors.any? %>
+          <div id="error_explanation">
+            <h2><%= pluralize(restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h2>
 
-      <ul>
-        <% restaurant.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
+            <ul>
+              <% restaurant.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+              <% end %>
+            </ul>
+          </div>
         <% end %>
-      </ul>
+
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-1/2 px-3">
+            <%= form.label :name, :class => "form-label", id: :restaurant_name %>
+            <%= form.text_field :name, :class => "form-box" ,
+                                id: :restaurant_description,:placeholder => "La Tentadora" %>
+<!--            focus:outline-none focus:bg-white focus:border-gray-500-->
+          </div>
+        </div>
+
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full px-3">
+            <%= form.label :description, :class => "form-label", id: :restaurant_name %>
+            <%= form.text_area :description, :class => "form-box" ,
+                                rows: 5, cols:20,
+                                id: :restaurant_description,:placeholder => "Restaurant Description" %>
+          </div>
+        </div>
+
+
+        <div class="field">
+          <%= form.label :location %>
+          <%= form.text_area :location, id: :restaurant_location, rows: 2, cols:5 %>
+        </div>
+
+        <div class="actions">
+          <%= form.submit  class:"btn btn-purple" %>
+        </div>
+      </div>
     </div>
   <% end %>
-
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name, id: :restaurant_name %>
-  </div>
-
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description, id: :restaurant_description, rows: 10, cols:60 %>
-  </div>
-
-  <div class="field">
-    <%= form.label :image_url %>
-    <%= form.text_field :image_url, id: :restaurant_image_url %>
-  </div>
-
-  <div class="field">
-    <%= form.label :location %>
-    <%= form.text_area :location, id: :restaurant_location, rows: 10, cols:60 %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit  class:"btn btn-purple" %>
-  </div>
-<% end %>
+</div>
