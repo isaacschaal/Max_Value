@@ -16,8 +16,12 @@ Restaurant.create!(name: 'Mr. Pizza',
                           </p>},
                    image_url: 'pizza.jpg',
                    price_type: 2,
-                   meal_type: 3,
-                   location: '123 Sesame St. Lisboa')
+                   breakfast: 0,
+                   brunch: 0,
+                   snack: 0,
+                   lunch: 0,
+                   dinner: 1,
+                   address: '1816 Olwien St. Brookings SD')
 
 Restaurant.create!(name: 'Chinese Gourmet',
                    description:
@@ -28,8 +32,12 @@ Restaurant.create!(name: 'Chinese Gourmet',
                           </p>},
                    image_url: 'chinese.jpg',
                    price_type: 1,
-                   meal_type: 2,
-                   location: '123 Sesame St. Lisboa')
+                   breakfast: 0,
+                   brunch: 0,
+                   snack: 0,
+                   lunch: 0,
+                   dinner: 1,
+                   address: '1816 Olwien St. Brookings SD')
 
 Restaurant.create!(name: 'A Tentadora',
                    description:
@@ -40,5 +48,9 @@ Restaurant.create!(name: 'A Tentadora',
                           </p>},
                    image_url: 'pastry.jpg',
                    price_type: 0,
-                   meal_type: 1,
-                   location: '123 Sesame St. Lisboa')
+                   breakfast: 0,
+                   brunch: 0,
+                   snack: 0,
+                   lunch: 0,
+                   dinner: 1,
+                   address: '1816 Olwien St. Brookings SD')

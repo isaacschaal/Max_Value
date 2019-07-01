@@ -11,10 +11,13 @@
         <li>
           <%= image_tag(restaurant.image_url) %>
           <h2><%= restaurant.name %></h2>
-          <h3><%= restaurant.price_type %> <%= restaurant.meal_type %></h3>
+          <h3><%= restaurant.price_type %> ></h3>
           <p>
             <%= sanitize(restaurant.description) %>
           </p>
+          <p><%= restaurant.address %></p>
+
+
         </li>
       <% end %>
     <% end %>

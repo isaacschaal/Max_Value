@@ -1,11 +1,5 @@
 class Restaurant < ApplicationRecord
-  enum meal_type: {
-      "Breakfast"   => 0,
-      "Brunch"      => 1,
-      "Snacks"      => 2,
-      "Lunch"       => 3,
-      "Dinner"      => 4
-  }
+
   enum price_type: {
       'All Prices' => 0,
       "$"   => 1,
@@ -14,8 +8,14 @@ class Restaurant < ApplicationRecord
       "$$$$"       => 4
   }
 
+  geocoded_by :address
+  after_validation :geocode
+
+
   validates :name, :description, :image_url,
-            :location, :meal_type, :price_type,  presence: true
+            :address, :price_type,  presence: true
+  # should make it so one is selected huh?
+  #validates :breakfast, :brunch, :snack, :lunch, :dinner, presence: true
   validates :name, uniqueness: true
   validates :image_url, allow_blank: true, format: {
       with: %r{\.(gif|jpg|png)\Z}i,

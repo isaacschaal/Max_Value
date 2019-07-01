@@ -75,32 +75,32 @@
             <span class="form-label">Restaurant Type</span>
             <div class="mt-2">
               <div>
-                <%= form.check_box :meal_type, :class => "form-checkbox"  %>
-                <%= label_tag :meal_0, "Breakfast" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+                <%= form.check_box :breakfast, :class => "form-checkbox"  %>
+                <%= label_tag :breakfast, "Breakfast" , :class => "inline-flex items-center ml-2 text-gray-700"%>
               </div>
               <div>
-                <%= form.check_box :meal_type,  :class => "form-checkbox"  %>
-                <%= label_tag :meal_1, "Brunch" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+                <%= form.check_box :brunch, :class => "form-checkbox"  %>
+                <%= label_tag :brunch, "Brunch" , :class => "inline-flex items-center ml-2 text-gray-700"%>
               </div>
               <div>
-                <%= form.check_box :meal_type,  :class => "form-checkbox"  %>
-                <%= label_tag :meal_2, "Snacks" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+                <%= form.check_box :snacks,  :class => "form-checkbox"  %>
+                <%= label_tag :snacks, "Snacks" , :class => "inline-flex items-center ml-2 text-gray-700"%>
               </div>
               <div>
-                <%= form.check_box :meal_type,  :class => "form-checkbox"  %>
-                <%= label_tag :meal_3, "Lunch" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+                <%= form.check_box :lunch,  :class => "form-checkbox"  %>
+                <%= label_tag :lunch, "Lunch" , :class => "inline-flex items-center ml-2 text-gray-700"%>
               </div>
               <div>
-                <%= form.check_box :meal_type,  :class => "form-checkbox"  %>
-                <%= label_tag :meal_4, "Dinner" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+                <%= form.check_box :dinner,  :class => "form-checkbox"  %>
+                <%= label_tag :dinner, "Dinner" , :class => "inline-flex items-center ml-2 text-gray-700"%>
               </div>
             </div>
           </div>
         </div>
 
         <div class="field">
-          <%= form.label :location %>
-          <%= form.text_area :location, id: :restaurant_location, rows: 2, cols:5 %>
+          <%= form.label :address %>
+          <%= form.text_area :address, id: :restaurant_address, rows: 10, cols:20 %>
         </div>
 
         <div class="actions">
