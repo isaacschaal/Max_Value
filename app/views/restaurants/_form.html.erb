@@ -3,8 +3,8 @@
     <div class = "block md:flex md:flex-wrap md:-mx-3 md:mb-6">
       <div class = "md:w-1/4 py-4 px-10">
         <%= image_tag("pizza.jpg") %>
-        <%= form.label :image_url %>
-        <%= form.text_field :image_url, id: :restaurant_image_url %>
+        <%= form.label :image_url, :class => "form-label"  %>
+        <%= form.text_field :image_url, :class => "w-56 md:w-full form-box", id: :restaurant_image_url %>
       </div>
       <div class = "md:w-3/4 py-4, px-10">
         <% if restaurant.errors.any? %>
@@ -37,6 +37,66 @@
           </div>
         </div>
 
+<!--        <div class="flex flex-col mb-4 md:w-1/2">-->
+<!--          <label class="mb-2 uppercase tracking-wide font-bold text-lg text-grey-darkest" for="first_name">First Name</label>-->
+<!--          <input class="border py-2 px-3 text-grey-darkest md:mr-2" type="text" name="first_name" id="first_name">-->
+<!--        </div>-->
+<!--        <div class="flex flex-col mb-4 md:w-1/2">-->
+<!--          <label class="mb-2 uppercase font-bold text-lg text-grey-darkest md:ml-2" for="last_name">Last Name</label>-->
+<!--          <input class="border py-2 px-3 text-grey-darkest md:ml-2" type="text" name="last_name" id="last_name">-->
+<!--        </div>-->
+        <div class="flex items-center w-full ">
+          <div class="flex flex-col mb-4 w-1/2">
+            <span class="form-label ">Price Range</span>
+            <div class="mt-2">
+              <div>
+                <%= form.radio_button :price_type, "All Prices", :class => "form-radio"  %>
+                <%= label_tag :price_0, "All Prices" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+              </div>
+              <div>
+                <%= form.radio_button :price_type, "$", :class => "form-radio"  %>
+                <%= label_tag :price_1, "$" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+              </div>
+              <div>
+                <%= form.radio_button :price_type, "$$", :class => "form-radio"  %>
+                <%= label_tag :price_2, "$$" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+              </div>
+              <div>
+                <%= form.radio_button :price_type, "$$$", :class => "form-radio"  %>
+                <%= label_tag :price_3, "$$$" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+              </div>
+              <div>
+                <%= form.radio_button :price_type, "$$$$", :class => "form-radio"  %>
+                <%= label_tag :price_4, "$$$$" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col mb-4 w-1/2">
+            <span class="form-label">Restaurant Type</span>
+            <div class="mt-2">
+              <div>
+                <%= form.check_box :meal_type, :class => "form-checkbox"  %>
+                <%= label_tag :meal_0, "Breakfast" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+              </div>
+              <div>
+                <%= form.check_box :meal_type,  :class => "form-checkbox"  %>
+                <%= label_tag :meal_1, "Brunch" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+              </div>
+              <div>
+                <%= form.check_box :meal_type,  :class => "form-checkbox"  %>
+                <%= label_tag :meal_2, "Snacks" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+              </div>
+              <div>
+                <%= form.check_box :meal_type,  :class => "form-checkbox"  %>
+                <%= label_tag :meal_3, "Lunch" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+              </div>
+              <div>
+                <%= form.check_box :meal_type,  :class => "form-checkbox"  %>
+                <%= label_tag :meal_4, "Dinner" , :class => "inline-flex items-center ml-2 text-gray-700"%>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="field">
           <%= form.label :location %>

@@ -7,10 +7,11 @@ class Restaurant < ApplicationRecord
       "Dinner"      => 4
   }
   enum price_type: {
-      "$"   => 0,
-      "$$"      => 1,
-      "$$$"      => 2,
-      "$$$$"       => 3
+      'All Prices' => 0,
+      "$"   => 1,
+      "$$"      => 2,
+      "$$$"      => 3,
+      "$$$$"       => 4
   }
 
   validates :name, :description, :image_url,
