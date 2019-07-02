@@ -8,12 +8,7 @@
 
 Restaurant.delete_all
 Restaurant.create!(name: 'Mr. Pizza',
-                   description:
-                       %{<p>
-                          <em>Better Pizza, Better Price!</em>
-                          A great pizza place, with a truly great value!
-                          Come enjoy our generous portions and fresh ingredients.
-                          </p>},
+                   description: %{<p><em>Better Pizza, Better Price!</em> A great pizza place, with a truly great value! Come enjoy our generous portions and fresh ingredients. </p>},
                    image_url: 'pizza.jpg',
                    price_type: 2,
                    breakfast: 0,
@@ -24,12 +19,7 @@ Restaurant.create!(name: 'Mr. Pizza',
                    address: '1816 Olwien St. Brookings SD')
 
 Restaurant.create!(name: 'Chinese Gourmet',
-                   description:
-                       %{<p>
-                          <em>Large Selection of Traditional Chinese Dishes!</em>
-                          From Beef and Chicken to Pork and Prawns, enjoy a traditional chinese meal,
-                          cooked with love. Ask about our vast menu selection and meal deals!
-                          </p>},
+                   description:%{<p><em>Large Selection of Traditional Chinese Dishes!</em> From Beef and Chicken to Pork and Prawns, enjoy a traditional chinese meal, cooked with love. Ask about our vast menu selection and meal deals! </p>},
                    image_url: 'chinese.jpg',
                    price_type: 1,
                    breakfast: 0,
@@ -40,12 +30,7 @@ Restaurant.create!(name: 'Chinese Gourmet',
                    address: '1816 Olwien St. Brookings SD')
 
 Restaurant.create!(name: 'A Tentadora',
-                   description:
-                       %{<p>
-                          <em>Lisbon's Best Pastries!</em>
-                          Try our signature Bolo da Crema or Pasta de Nata! We have a huge selection
-                          of pastries and traditional Portuguese cuisine. Great value!
-                          </p>},
+                   description: %{<p><em>Lisbon's Best Pastries!</em> Try our signature Bolo da Crema or Pasta de Nata! We have a huge selection of pastries and traditional Portuguese cuisine. Great value! </p>},
                    image_url: 'pastry.jpg',
                    price_type: 0,
                    breakfast: 0,

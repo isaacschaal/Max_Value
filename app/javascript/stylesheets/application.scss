@@ -34,8 +34,12 @@ h3 {
 .list_line_odd{
   @apply .bg-indigo-200 ;
 }
-.list_line_even{
-
+.button{
+  @apply .text-white .bg-indigo-500 .font-bold .py-5 .px-5 .rounded-full;
 }
+
+.button:hover{
+  @apply .text-indigo-500 .bg-white;
+  }
 
 @import "tailwindcss/utilities";

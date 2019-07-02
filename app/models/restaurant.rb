@@ -1,7 +1,6 @@
 class Restaurant < ApplicationRecord
 
   enum price_type: {
-      'All Prices' => 0,
       "$"   => 1,
       "$$"      => 2,
       "$$$"      => 3,

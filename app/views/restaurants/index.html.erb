@@ -23,15 +23,16 @@
                            length: 80) %>
             </p>
           </td>
-          <td class="actions">
-            <ul class = "text-indigo-500  ">
-              <li class = "hover:text-white" ><%= link_to 'Show', restaurant %></li>
-              <li class = "hover:text-white"><%= link_to 'Edit', edit_restaurant_path(restaurant) %></li>
-              <li class = "hover:text-white">
+          <td class="">
+            <ul class = "py-5 px-5 text-center"  >
+              <li class = "py-5 " ><%= link_to 'Show', restaurant  , :class =>"button"%></li>
+              <li class = "py-5"> <%= link_to 'Edit', edit_restaurant_path(restaurant), :class =>"button" %></li>
+              <li class = "py-5">
                 <%= link_to 'Destroy',
                             restaurant,
                             method: :delete,
-                            data: { confirm: 'Are you sure?' } %>
+                            data: { confirm: 'Are you sure?' },
+                            :class =>"button"%>
               </li>
             </ul>
           </td>
@@ -42,7 +43,10 @@
   </div>
 </div>
 
-<h1 class = "text-indigo-500 py-4 px-5 hover:text-white">      <%= link_to 'New Restaurant', new_restaurant_path  %>
+<h1> <span class = "text-indigo-500 py-4 px-5 hover:text-white">
+  <%= link_to 'New Restaurant', new_restaurant_path  %>
+</span>
+
 </h1>
 
 
