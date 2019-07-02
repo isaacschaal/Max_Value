@@ -31,4 +31,11 @@ h3 {
 
 }
 
+.list_line_odd{
+  @apply .bg-indigo-200 ;
+}
+.list_line_even{
+
+}
+
 @import "tailwindcss/utilities";

@@ -2,9 +2,48 @@
   <aside id="notice"><%= notice %></aside>
 <% end %>
 
-<h1>Restaurants </h1>
-<p><%= link_to 'New Restaurant', new_restaurant_path %>
-</p>
+<h1 class = "text-indigo-500 py-4 px-5"> Restaurants </h1>
+
+<div class="w-5/6 mx-auto">
+  <div class = "shadow-md rounded my-6">
+    <table class = "border-collapse w-full">
+
+      <tbody class = "py-4 px-5">
+      <% @restaurants.each do |restaurant| %>
+        <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
+
+          <td class="">
+            <%= image_tag(restaurant.image_url, class: 'hidden md:block rounded') %>
+          </td>
+
+          <td class="description">
+            <h1><%= restaurant.name %></h1>
+            <p>
+              <%= truncate(strip_tags(restaurant.description),
+                           length: 80) %>
+            </p>
+          </td>
+          <td class="actions">
+            <ul class = "text-indigo-500  ">
+              <li class = "hover:text-white" ><%= link_to 'Show', restaurant %></li>
+              <li class = "hover:text-white"><%= link_to 'Edit', edit_restaurant_path(restaurant) %></li>
+              <li class = "hover:text-white">
+                <%= link_to 'Destroy',
+                            restaurant,
+                            method: :delete,
+                            data: { confirm: 'Are you sure?' } %>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<h1 class = "text-indigo-500 py-4 px-5 hover:text-white">      <%= link_to 'New Restaurant', new_restaurant_path  %>
+</h1>
 
 
 
