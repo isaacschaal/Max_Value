@@ -1,0 +1,19 @@
+<ul class="catalog">
+  <% cache @search_results_restaurants do %>
+    <% @search_results_restaurants.first(3).each do |restaurant| %>
+      <% cache restaurant do %>
+        <li>
+          <%= image_tag(restaurant.image_url) %>
+          <h2><%= restaurant.name %></h2>
+          <h3><%= restaurant.price_type %> ></h3>
+          <p>
+            <%= sanitize(restaurant.description) %>
+          </p>
+          <p><%= restaurant.address %></p>
+
+
+        </li>
+      <% end %>
+    <% end %>
+  <% end %>
+</ul>

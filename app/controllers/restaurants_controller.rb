@@ -4,7 +4,10 @@ class RestaurantsController < ApplicationController
   # GET /restaurants
   # GET /restaurants.json
   def index
-    @restaurants = Restaurant.all
+
+    @restaurants = Restaurant.order(:name)
+
+
   end
 
   # GET /restaurants/1
@@ -47,7 +50,9 @@ class RestaurantsController < ApplicationController
 
         # @restaurants = Restaurant.all
         # ActionCable.server.broadcast 'restaurants',
-        #                              html: render_to_string('products', layout: false)
+        #                              html: render_to_string('restaurants', layout: false)
+        #
+        # RE READ ABOUT THIS, HOW TO SET UP ACTITON CABLE?
       else
         format.html { render :edit }
         format.json { render json: @restaurant.errors, status: :unprocessable_entity }

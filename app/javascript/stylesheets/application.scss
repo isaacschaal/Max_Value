@@ -22,11 +22,22 @@ h3 {
   @apply .uppercase .tracking-wide .text-gray-700 .text-xs .font-bold .mb-2;
 }
 .form-box{
-  @apply  .block w-full .bg-gray-200 .text-gray-700 .border .border-gray-200 .rounded .py-3 .px-4 .mb-3 .leading-tight;
+  @apply  .block .w-full .bg-gray-200 .text-gray-700 .border .border-gray-200 .rounded .py-3 .px-4 .mb-3 .leading-tight;
 }
 //.appearance-none
 
+
+
 .form-box:focus{
+  @apply .outline-none .bg-white .border-gray-500;
+
+}
+
+.search-box{
+  @apply   .bg-gray-200 .text-gray-700 .border .border-gray-200 .rounded .py-3 .px-10 .mb-3 .leading-tight;
+}
+
+.search-box:focus{
   @apply .outline-none .bg-white .border-gray-500;
 
 }

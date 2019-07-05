@@ -1,25 +1,61 @@
+<nav class="flex items-center justify-between flex-wrap bg-indigo-200 p-6 py-16">
+  <!--        Add the background bar-->
+  <div class="flex items-center flex-shrink-0 text-white mr-6">
+    <span class="font-semibold text-xl tracking-tight"> Find...</span>
+  </div>
+
+  <div class="w-full block flex-grow md:flex md:items-center md:w-auto">
+
+    <div >
+      <%= form_tag(homepage_index_path, method: "get", remote: true) do %>
+        <%= text_field_tag :search, params[:search], placeholder: "Enter search term", class: "search-box" %>
+        <span class =" px-10">
+          <%= submit_tag "Search", class:"inline-block text-sm px-4 py-2 leading-none border rounded hover:text-white hover:border-white hover:bg-indigo-200 border-transparent text-indigo-500 bg-white mt-4 md:mt-0"%>
+
+        </span>
+      <% end %>
+    </div>
+  </div>
+</nav>
+
 <% if notice %>
   <aside id="notice"><%= notice %> </aside>
 <% end %>
 
 <h1> Cheap Local Restaurants! </h1>
 
-<ul class="catalog">
-  <% cache @restaurants do %>
-    <% @restaurants.each do |restaurant| %>
-      <% cache restaurant do %>
-        <li>
-          <%= image_tag(restaurant.image_url) %>
-          <h2><%= restaurant.name %></h2>
-          <h3><%= restaurant.price_type %> ></h3>
-          <p>
-            <%= sanitize(restaurant.description) %>
-          </p>
-          <p><%= restaurant.address %></p>
+
+<!--<script type="text/javascript">-->
+<!--    if (typeof jQuery != 'undefined') {-->
+<!--        alert("jQuery is Loaded");-->
+
+<!--    }-->
+<!--    else-->
+<!--        alert("jQuery isn't Loaded");-->
+<!--</script>-->
+
+<div id = "homepage_restaurants">
+  <ul class="catalog">
+    <% cache @restaurants do %>
+      <% @restaurants.first(3).each do |restaurant| %>
+        <% cache restaurant do %>
+          <li>
+            <%= image_tag(restaurant.image_url) %>
+            <h2><%= restaurant.name %></h2>
+            <h3><%= restaurant.price_type %> ></h3>
+            <p>
+              <%= sanitize(restaurant.description) %>
+            </p>
+            <p><%= restaurant.address %></p>
 
 
-        </li>
+          </li>
+        <% end %>
       <% end %>
     <% end %>
-  <% end %>
-</ul>
+  </ul>
+</div>
+<div id = "search-results">
+
+
+</div>
