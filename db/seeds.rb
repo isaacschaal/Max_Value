@@ -18,6 +18,6 @@ Restaurant.delete_all
                      snack: [0,1].sample,
                      lunch: [0,1].sample,
                      dinner: [0,1].sample,
-                     address: Faker::Address.full_address)
+                     address: "1816 Olwien St. Brookings SD, 57006")
 end
 

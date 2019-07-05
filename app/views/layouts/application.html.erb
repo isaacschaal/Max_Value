@@ -1,57 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>TestProj2</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title>TestProj2</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-    <%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-    <%#= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%#= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 
 
+</head>
 
-  </head>
+<body class="bg-blue-200">
+<main class='<%= controller.controller_name %>'>
+  <!--      Give the full main class the current controller's name-->
+  <nav class="flex items-center justify-between flex-wrap bg-indigo-500 p-6">
+    <!--        Add the background bar-->
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+      <span class="font-semibold text-xl tracking-tight">Max Value</span>
+      <!--          Add the Logo-->
+    </div>
+    <div class="block md:hidden">
+      <!--          only have in small screen ^-->
+      <button class="flex items-center px-3 py-2 border rounded text-indigo-200 border-indigo-400 hover:text-white hover:border-white">
+        <!--            Little button, not used for anything yet-->
+        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+        </svg>
+      </button>
+    </div>
+    <div class="w-full block flex-grow md:flex md:items-center md:w-auto">
+      <!--          Menu items-->
+      <div class="text-sm md:flex-grow">
+        <a href="/" class="block mt-4 md:inline-block md:mt-0 text-indigo-200 hover:text-white mr-4">
+          Homepage
+        </a>
+        <a href="/restaurants/new" class="block mt-4 md:inline-block md:mt-0 text-indigo-200 hover:text-white mr-4">
+          Add a Restaurant
+        </a>
+        <a href="#responsive-header" class="block mt-4 md:inline-block md:mt-0 text-indigo-200 hover:text-white mr-4">
+          Add a Review
+        </a>
+      </div>
+      <!--          <div>-->
+      <!--            download button-->
+      <!--            <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-indigo-500 hover:bg-white mt-4 md:mt-0">Download</a>-->
+      <!--          </div>-->
+    </div>
+  </nav>
 
-  <body class = "bg-blue-200">
-    <main class='<%= controller.controller_name %>'>
-<!--      Give the full main class the current controller's name-->
-      <nav class="flex items-center justify-between flex-wrap bg-indigo-500 p-6">
-<!--        Add the background bar-->
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
-          <span class="font-semibold text-xl tracking-tight">Max Value</span>
-<!--          Add the Logo-->
-        </div>
-        <div class="block md:hidden">
-<!--          only have in small screen ^-->
-          <button class="flex items-center px-3 py-2 border rounded text-indigo-200 border-indigo-400 hover:text-white hover:border-white">
-<!--            Little button, not used for anything yet-->
-            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-          </button>
-        </div>
-        <div class="w-full block flex-grow md:flex md:items-center md:w-auto">
-<!--          Menu items-->
-          <div class="text-sm md:flex-grow">
-            <a href="/" class="block mt-4 md:inline-block md:mt-0 text-indigo-200 hover:text-white mr-4">
-            Homepage
-            </a>
-            <a href="/restaurants/new" class="block mt-4 md:inline-block md:mt-0 text-indigo-200 hover:text-white mr-4">
-              Add a Restaurant
-            </a>
-            <a href="#responsive-header" class="block mt-4 md:inline-block md:mt-0 text-indigo-200 hover:text-white mr-4">
-              Add a Review
-            </a>
-          </div>
-<!--          <div>-->
-<!--            download button-->
-<!--            <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-indigo-500 hover:bg-white mt-4 md:mt-0">Download</a>-->
-<!--          </div>-->
-        </div>
-      </nav>
-
-      <%= yield %>
-    </main>
-  </body>
+  <%= yield %>
+</main>
+</body>
 </html>
